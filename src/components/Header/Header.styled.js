@@ -8,6 +8,7 @@ export const Wrapper = styled.div`
   padding: 32px 32px 0 32px;
   position: sticky;
   top: 0;
+  z-index: 10;
 `;
 
 export const Header = styled.div`

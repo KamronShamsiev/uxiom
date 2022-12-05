@@ -91,3 +91,18 @@ export const WhiteVectorSvg = () => (
     />
   </svg>
 );
+
+export const BlackVector = () => (
+  <svg
+    width="102"
+    height="100"
+    viewBox="0 0 102 100"
+    fill="none"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <path
+      d="M50.8413 100C78.7723 100 101.415 77.6142 101.415 50C101.415 22.3858 78.7723 0 50.8413 0C22.9104 0 0.267822 22.3858 0.267822 50C0.267822 77.6142 22.9104 100 50.8413 100Z"
+      fill="black"
+    />
+  </svg>
+);
