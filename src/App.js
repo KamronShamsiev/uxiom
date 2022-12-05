@@ -1,6 +1,6 @@
 import MainLayout from './layout/MainLayout';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import HeadingSection from './components/HeadingSection/HeadingSection';
+import ProjectsSection from './components/ProjectsSection/ProjectsSection';
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
           path="/"
           element={
             <MainLayout>
-              <HeadingSection />
+              <ProjectsSection />
             </MainLayout>
           }
         />
