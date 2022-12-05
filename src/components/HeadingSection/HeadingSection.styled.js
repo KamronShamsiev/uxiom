@@ -27,7 +27,7 @@ export const SectionTitle = styled.h1`
 export const SectionDescription = styled.p`
   width: 410px;
   font-size: 24px;
-  font-weight: 400;
+  font-weight: 300;
   color: ${Colors.primary};
 `;
 

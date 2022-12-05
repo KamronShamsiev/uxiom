@@ -46,5 +46,6 @@ export const CardDescription = styled.p`
   width: 392px;
   height: 60px;
   font-size: 16px;
+  font-weight: 300;
   color: ${Colors.primary};
 `;
