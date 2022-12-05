@@ -18,6 +18,7 @@ export const Title = styled.h1`
 export const CardWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   width: 100%;
   gap: 40px;
 `;

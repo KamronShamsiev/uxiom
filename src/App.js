@@ -1,19 +1,11 @@
-import MainLayout from './layout/MainLayout';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import ProjectsSection from './components/ProjectsSection/ProjectsSection';
+import Home from './pages/Home/Home';
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route
-          path="/"
-          element={
-            <MainLayout>
-              <ProjectsSection />
-            </MainLayout>
-          }
-        />
+        <Route path="/" element={<Home />} />
       </Routes>
     </BrowserRouter>
   );
